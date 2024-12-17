@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1FB733CE2D11BCDB007852C5 /* NBAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB733CD2D11BCDB007852C5 /* NBAApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1FB733CA2D11BCDB007852C5 /* NBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB733CD2D11BCDB007852C5 /* NBAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		1FB733C12D11BCDB007852C5 = {
 			isa = PBXGroup;
 			children = (
+				1FB733CD2D11BCDB007852C5 /* NBAApp.swift */,
 				1FB733CC2D11BCDB007852C5 /* NBA */,
 				1FB733CB2D11BCDB007852C5 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB733CE2D11BCDB007852C5 /* NBAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

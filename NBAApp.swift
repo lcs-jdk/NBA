@@ -11,7 +11,7 @@ import SwiftUI
 struct NBAApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
         }
     }
 }
