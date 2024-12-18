@@ -25,7 +25,7 @@ struct PlayerListItemView: View {
                 .frame(width: 125, height: 100, alignment: .center)
                 .clipped()
                 
-            HStack{
+            HStack(alignment: .center){
                 
                 VStack{
                     Text(providedplayer.name)
@@ -40,6 +40,7 @@ struct PlayerListItemView: View {
                 Image(providedplayer.logo)
                     .resizable()
                     .frame(width: 50, height: 50)
+                    .scaledToFit()
             }
          
             .padding()
