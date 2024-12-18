@@ -19,7 +19,7 @@ struct PlayerListItemView: View {
             
             
             
-            Image("michaelJordanMain")
+            Image(providedplayer.image)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 125, height: 100, alignment: .center)
