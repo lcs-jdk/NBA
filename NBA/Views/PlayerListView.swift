@@ -7,15 +7,17 @@
 
 import SwiftUI
 
-//struct PlayerListView: View {
-//    var body: some View {
-//        NavigationStack {
-//            List(players) { currentPlayer in
-//                NavigationLink(destination: DetailView(providedPlayer: currentPlayer)) {
-//                    PlayerView(providedplayer: currentPlayer)   
-//                }
-//            }
-//            .navigationTitle("Greatest NBA Players")
-//        }
-//    }
-//}
+struct PlayerListView: View {
+    var body: some View {
+        NavigationStack {
+            List(players) { currentPlayer in
+                Text(currentPlayer.name)
+            }
+            .navigationTitle("Greatest NBA Players")
+        }
+    }
+}
+
+#Preview {
+    PlayerListView()
+}

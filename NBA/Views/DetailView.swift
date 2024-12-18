@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct DetailView: View {
+    
+    // MARK: Stored property
+    let providedPlayer: Player
+    
+    // MARK: Computed properties
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      
+        Image(providedPlayer.detailImage)
+        Text(providedPlayer.nationality)
+        Text(providedPlayer.birth)
+        Text(providedPlayer.weight)
+
+        Text(providedPlayer.height)
+
+        Text(providedPlayer.avaragePlay)
+        Text(providedPlayer.birth)
+
     }
 }
 
 #Preview {
-    DetailView()
+    DetailView(providedPlayer: michaelJordan)
 }

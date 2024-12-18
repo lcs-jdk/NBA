@@ -20,6 +20,7 @@ struct Player: Identifiable {
     let birth: String
     let avaragePlay: String
     let logo: String
+    let nationality: String
     
 }
 
@@ -33,7 +34,8 @@ let michaelJordan: Player = Player(
     weight: "98 kg",
     birth: "February 17, 1963",
     avaragePlay: "30.1",
-    logo: "chicagoBullsLogo"
+    logo: "chicagoBullsLogo",
+    nationality: "USA"
 )
 
 let lebronJames: Player = Player(
@@ -46,7 +48,8 @@ let lebronJames: Player = Player(
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "wh",
-    logo: "los AngelesLakersLogo"
+    logo: "los AngelesLakersLogo",
+    nationality: "USA"
     )
 
 let kobebriant: Player = Player(
@@ -59,7 +62,8 @@ let kobebriant: Player = Player(
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "asdf",
-    logo: "GSW"
+    logo: "GSW",
+    nationality: "USA"
     )
 
 let stephenCurry: Player = Player(
@@ -72,7 +76,8 @@ let stephenCurry: Player = Player(
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "asdf",
-    logo: "GSW"
+    logo: "GSW",
+    nationality: "USA"
 )
 
 let kyrieIrving: Player = Player(
@@ -85,7 +90,8 @@ let kyrieIrving: Player = Player(
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "as",
-    logo: "GSW"
+    logo: "GSW",
+    nationality: "USA"
 )
 
 let kevinDurant: Player = Player(
@@ -98,7 +104,8 @@ let kevinDurant: Player = Player(
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "asdf",
-    logo: "GSW"
+    logo: "GSW",
+    nationality: "USA"
 )
 
 
