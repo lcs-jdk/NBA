@@ -22,7 +22,7 @@ struct PlayerListItemView: View {
             Image(providedplayer.image)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 125, height: 100, alignment: .center)
+                .frame(width: 125, height: 120, alignment: .center)
                 .clipped()
                 
             HStack(alignment: .center){
