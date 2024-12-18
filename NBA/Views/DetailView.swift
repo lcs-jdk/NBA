@@ -16,14 +16,19 @@ struct DetailView: View {
     var body: some View {
       
         Image(providedPlayer.detailImage)
-        Text(providedPlayer.nationality)
-        Text(providedPlayer.birth)
-        Text(providedPlayer.weight)
-
-        Text(providedPlayer.height)
-
-        Text(providedPlayer.avaragePlay)
-        Text(providedPlayer.birth)
+            .resizable()
+            .scaledToFill()
+            .frame(width: 300, height: 600, alignment: .center)
+            .clipped()
+        
+            .padding()
+        
+        Text("birth: \(providedPlayer.birth)")
+        Text("nationality: \(providedPlayer.nationality)")
+        Text("height: \(providedPlayer.height)")
+        Text("weight: \(providedPlayer.weight)")
+        Text("points per game: \(providedPlayer.avaragePlay)")
+        
 
     }
 }

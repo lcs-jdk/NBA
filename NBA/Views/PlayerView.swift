@@ -12,7 +12,7 @@ struct PlayerView: View {
     let providedplayer: Player
     
     var body: some View {
-        VStack(){
+        HStack {
             
             
             
@@ -22,7 +22,7 @@ struct PlayerView: View {
             Image("michaelJordanMain")
                 .resizable()
                 .scaledToFill()
-                .frame(width: 200, height: 200, alignment: .center)
+                .frame(width: 125, height: 100, alignment: .center)
                 .clipped()
                 
             HStack{

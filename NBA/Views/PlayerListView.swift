@@ -12,6 +12,7 @@ struct PlayerListView: View {
         NavigationStack {
             List(players) { currentPlayer in
                 Text(currentPlayer.name)
+                
             }
             .navigationTitle("Greatest NBA Players")
         }

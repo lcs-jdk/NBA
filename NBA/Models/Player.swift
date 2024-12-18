@@ -27,7 +27,7 @@ struct Player: Identifiable {
 let michaelJordan: Player = Player(
     name: "Michael Jordan",
     image: "michaelJordanMain",
-    detailImage: "michaelJordanDetail",
+    detailImage: "michealJordonDetail",
     position: "Shooting Gaurd",
     team: "Chicago Bulls",
     height: "1.98 m",
