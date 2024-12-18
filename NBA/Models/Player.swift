@@ -40,7 +40,7 @@ let michaelJordan: Player = Player(
 
 let lebronJames: Player = Player(
     name: " LeBron James",
-    image: "lebronJames",
+    image: "lebronJamesMain",
     detailImage: "lebronJamesDetail",
     position: "Center",
     team: "Los Angeles Lakers",
@@ -48,63 +48,63 @@ let lebronJames: Player = Player(
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "wh",
-    logo: "los AngelesLakersLogo",
+    logo: "LALakersLogo",
     nationality: "USA"
     )
 
 let kobebriant: Player = Player(
     name: "Kobe Bryant",
-    image: "kobebriant",
-    detailImage: "kobebriantDetail",
+    image: "KobeMain",
+    detailImage: "KobeDetail",
     position: "Center",
     team: "Los Angeles Lakers",
     height: "6ft 11in",
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "asdf",
-    logo: "GSW",
+    logo: "LALakersLogo",
     nationality: "USA"
     )
 
 let stephenCurry: Player = Player(
     name: "Stephen Curry",
-    image: "stephenCurry",
-    detailImage: "stephenCurryDetail",
+    image: "stephCurryMain",
+    detailImage: "stephCurryDetail",
     position: "Center",
     team: "Golden State Warriors",
     height: "6ft 11in",
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "asdf",
-    logo: "GSW",
+    logo: "GSWLogo",
     nationality: "USA"
 )
 
 let kyrieIrving: Player = Player(
     name: "Kyrie Irving",
-    image: "kyrieIrving",
-    detailImage: "kyrieIrvingDetail",
+    image: "KyrieMain",
+    detailImage: "KyrieDetail",
     position: "Center",
     team: "Golden State Warriors",
     height: "6ft 11in",
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "as",
-    logo: "GSW",
+    logo: "MavsLogo",
     nationality: "USA"
 )
 
 let kevinDurant: Player = Player(
     name: "Kevin Durant",
-    image: "kevinDurant",
-    detailImage: "kevinDurantDetail",
+    image: "KDMain",
+    detailImage: "KDDetail",
     position: "Center",
     team: "Golden State Warriors",
     height: "6ft 11in",
     weight: "216lbs",
     birth: "1984-06-16",
     avaragePlay: "asdf",
-    logo: "GSW",
+    logo: "SunsLogo",
     nationality: "USA"
 )
 

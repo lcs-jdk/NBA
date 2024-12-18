@@ -28,6 +28,7 @@ struct DetailView: View {
         Text("height: \(providedPlayer.height)")
         Text("weight: \(providedPlayer.weight)")
         Text("points per game: \(providedPlayer.avaragePlay)")
+        Text("position: \(providedPlayer.position)")
         
 
     }
