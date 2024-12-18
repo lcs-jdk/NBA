@@ -24,12 +24,14 @@ struct PlayerListItemView: View {
                 .scaledToFill()
                 .frame(width: 125, height: 120, alignment: .center)
                 .clipped()
+                .padding(.leading, 50)
                 
             HStack(alignment: .center){
                 
                 VStack{
                     Text(providedplayer.name)
                         .font(.headline)
+                    
                     
                     Text(providedplayer.team)
                         .font(.subheadline)
@@ -39,14 +41,18 @@ struct PlayerListItemView: View {
                 
                 Image(providedplayer.logo)
                     .resizable()
-                    .frame(width: 50, height: 50)
                     .scaledToFit()
+                    .frame(width: 60, height: 60)
+                    .clipped()
             }
+            .frame(width: 190, height: 130)
+            //.padding(.trailing, 50)
          
             .padding()
             
             
         }
+
     }
 }
 
@@ -63,3 +69,14 @@ struct PlayerListItemView: View {
     PlayerListItemView(providedplayer: michaelJordan)
         .padding()
 }
+
+#Preview {
+    PlayerListItemView(providedplayer: lebronJames)
+        .padding()
+}
+
+#Preview {
+    PlayerListItemView(providedplayer: stephenCurry)
+        .padding()
+}
+
