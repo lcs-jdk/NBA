@@ -40,7 +40,7 @@ struct DetailView: View {
         
         .containerRelativeFrame([.horizontal, .vertical])
         
-        .background(Gradient(colors: [.bullsBlack, .bullsRed, .bullsWhite]).opacity(0.8))
+        .background(Gradient(colors: [providedPlayer.color1, providedPlayer.color2]).opacity(0.8))
         
         
     }

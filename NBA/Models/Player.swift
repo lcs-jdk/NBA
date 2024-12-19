@@ -103,7 +103,7 @@ let kyrieIrving: Player = Player(
     logo: "MavsLogo",
     nationality: "USA",
     color1: .dmDarkBlue,
-    color2: .dmLightBlue
+    color2: .dmSilver
 )
 
 let kevinDurant: Player = Player(
@@ -128,6 +128,6 @@ let kevinDurant: Player = Player(
 
 
 
-let players: [Player] = [stephenCurry, kyrieIrving, kevinDurant, kobebriant, lebronJames, michaelJordan]
+let players: [Player] = [michaelJordan, kobebriant, lebronJames, stephenCurry, kyrieIrving, kevinDurant ]
 
 
