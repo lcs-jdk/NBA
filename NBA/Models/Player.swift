@@ -21,6 +21,8 @@ struct Player: Identifiable {
     let avaragePlay: String
     let logo: String
     let nationality: String
+    let color1: Color
+    let color2: Color
     
 }
 
@@ -35,7 +37,9 @@ let michaelJordan: Player = Player(
     birth: "February 17, 1963",
     avaragePlay: "30.1",
     logo: "chicagoBullsLogo",
-    nationality: "USA"
+    nationality: "USA",
+    color1: .bullsBlack,
+    color2: .bullsRed
 )
 
 let lebronJames: Player = Player(
@@ -49,7 +53,9 @@ let lebronJames: Player = Player(
     birth: "December 30, 1984",
     avaragePlay: "27.2",
     logo: "LALakersLogo",
-    nationality: "USA"
+    nationality: "USA",
+    color1: .laPurple,
+    color2: .laYellow
     )
 
 let kobebriant: Player = Player(
@@ -63,7 +69,9 @@ let kobebriant: Player = Player(
     birth: "August 23, 1978",
     avaragePlay: "25.0",
     logo: "LALakersLogo",
-    nationality: "USA"
+    nationality: "USA",
+    color1: .laPurple,
+    color2: .laYellow
     )
 
 let stephenCurry: Player = Player(
@@ -77,7 +85,9 @@ let stephenCurry: Player = Player(
     birth: "March 14, 1988",
     avaragePlay: "24.6",
     logo: "GSWLogo",
-    nationality: "USA"
+    nationality: "USA",
+    color1: .gswBlue,
+    color2: .gswYellow
 )
 
 let kyrieIrving: Player = Player(
@@ -91,7 +101,9 @@ let kyrieIrving: Player = Player(
     birth: "March 23, 1992",
     avaragePlay: "23.5",
     logo: "MavsLogo",
-    nationality: "USA"
+    nationality: "USA",
+    color1: .dmDarkBlue,
+    color2: .dmLightBlue
 )
 
 let kevinDurant: Player = Player(
@@ -105,7 +117,9 @@ let kevinDurant: Player = Player(
     birth: "September 29, 1988",
     avaragePlay: "27.3",
     logo: "SunsLogo",
-    nationality: "USA"
+    nationality: "USA",
+    color1: .sunsBlue,
+    color2: .sunsOrange
 )
 
 

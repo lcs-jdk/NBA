@@ -15,23 +15,38 @@ struct DetailView: View {
     // MARK: Computed properties
     var body: some View {
       
-        Image(providedPlayer.detailImage)
-            .resizable()
-            .scaledToFill()
-            .frame(width: 300, height: 600, alignment: .center)
-            .clipped()
+        VStack{
+            Image(providedPlayer.detailImage)
+                .resizable()
+                .scaledToFill()
+                .frame(width: 300, height: 600, alignment: .center)
+                .clipped()
+            
+            
+                .padding()
+            
+                
+            
+            Text("birth: \(providedPlayer.birth)")
+            Text("nationality: \(providedPlayer.nationality)")
+            Text("height: \(providedPlayer.height)")
+            Text("weight: \(providedPlayer.weight)")
+            Text("points per game: \(providedPlayer.avaragePlay)")
+            Text("position: \(providedPlayer.position)")
+            
+        }
         
-            .padding()
+       
         
-        Text("birth: \(providedPlayer.birth)")
-        Text("nationality: \(providedPlayer.nationality)")
-        Text("height: \(providedPlayer.height)")
-        Text("weight: \(providedPlayer.weight)")
-        Text("points per game: \(providedPlayer.avaragePlay)")
-        Text("position: \(providedPlayer.position)")
+        .containerRelativeFrame([.horizontal, .vertical])
         
-
+        .background(Gradient(colors: [.bullsBlack, .bullsRed, .bullsWhite]).opacity(0.8))
+        
+        
     }
+    
+    
+    
 }
 
 #Preview {

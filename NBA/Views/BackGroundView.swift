@@ -8,9 +8,19 @@
 import SwiftUI
  struct BackGroundView: View {
     var body: some View {
-    Rectangle()
-            .fill(Color.black)
+       
+        VStack{
+            
+            Text("sdfgasdf")
+        }
+        
+        
+        .containerRelativeFrame([.horizontal, .vertical])
+        .background(Gradient(colors: [.bullsRed, .bullsBlack]).opacity(1.0))
         
     }
 }
 
+#Preview {
+    
+}

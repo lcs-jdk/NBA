@@ -25,7 +25,7 @@ struct PlayerListItemView: View {
                 .frame(width: 125, height: 120, alignment: .center)
                 .clipped()
                 .padding(.leading, 50)
-                
+            
             HStack(alignment: .center){
                 
                 VStack{
@@ -36,7 +36,7 @@ struct PlayerListItemView: View {
                     Text(providedplayer.team)
                         .font(.subheadline)
                 }
-               
+                
                 .padding()
                 
                 Image(providedplayer.logo)
@@ -47,36 +47,32 @@ struct PlayerListItemView: View {
             }
             .frame(width: 190, height: 130)
             //.padding(.trailing, 50)
-         
+            
             .padding()
             
             
+            
+            
         }
-
+      
+        
+        
     }
 }
 
 
+   
+   
 
 
 
 
 
-
-
-
-#Preview {
-    PlayerListItemView(providedplayer: michaelJordan)
-        .padding()
-}
 
 #Preview {
     PlayerListItemView(providedplayer: lebronJames)
         .padding()
 }
 
-#Preview {
-    PlayerListItemView(providedplayer: stephenCurry)
-        .padding()
-}
+
 
