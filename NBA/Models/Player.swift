@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Player: Identifiable {
-  
+    
     let id = UUID()
     let name: String
     let image: String
@@ -56,7 +56,7 @@ let lebronJames: Player = Player(
     nationality: "USA",
     color1: .laPurple,
     color2: .laYellow
-    )
+)
 
 let kobebriant: Player = Player(
     name: "Kobe Bryant",
@@ -72,7 +72,7 @@ let kobebriant: Player = Player(
     nationality: "USA",
     color1: .laPurple,
     color2: .laYellow
-    )
+)
 
 let stephenCurry: Player = Player(
     name: "Stephen Curry",
@@ -122,12 +122,32 @@ let kevinDurant: Player = Player(
     color2: .sunsOrange
 )
 
+let lukaDoncic: Player = Player(
+    name: "Luka Dončić",
+    image: "LukaMain",
+    detailImage: "LukaDetail",
+    position: "Point guard",
+    team: "Dallas Mavericks",
+    height: "1.98 m",
+    weight: "104 kg",
+    birth: "February 28, 1999",
+    avaragePlay: "28.9",
+    logo: "MavsLogo",
+    nationality: "Slovenia",
+    color1: .dmDarkBlue,
+    color2: .dmSilver
+    
+    
+    
+    
+    
+    
+)
 
 
 
 
 
-
-let players: [Player] = [michaelJordan, kobebriant, lebronJames, stephenCurry, kyrieIrving, kevinDurant ]
+let players: [Player] = [michaelJordan, kobebriant, lebronJames, stephenCurry, kyrieIrving, lukaDoncic, kevinDurant ]
 
 

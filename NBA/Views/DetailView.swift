@@ -50,5 +50,5 @@ struct DetailView: View {
 }
 
 #Preview {
-    DetailView(providedPlayer: michaelJordan)
+    DetailView(providedPlayer: lukaDoncic)
 }

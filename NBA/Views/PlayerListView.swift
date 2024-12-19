@@ -20,13 +20,13 @@ struct PlayerListView: View {
                     DetailView(providedPlayer: currentPlayer)
                 } label: {
                     PlayerListItemView(providedplayer: currentPlayer)
-
+                    
                 }
                 
                 
                 
             }
-           
+            
             
             
             
@@ -41,8 +41,8 @@ struct PlayerListView: View {
             
             
         }
-     
-       
+        
+        
     }
     
 }
